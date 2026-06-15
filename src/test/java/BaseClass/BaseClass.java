@@ -37,9 +37,9 @@ public class BaseClass {
         
     }
 
-    @AfterMethod
-  public void quit() {
-
-      driver.quit();
-   }
+//    @AfterMethod
+//  public void quit() {
+//
+//      driver.quit();
+//   }
 }

@@ -3,19 +3,15 @@
 <suite name="Strato CRM Suite">
 
     <test name="Smoke Tests">
-
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
-
-        <packages>
-            <package name="tests"/>
-            <package name="tests.leads"/>
-            <package name="tests.Login"/>
-        </packages>
-
+<groups>
+<run>
+<include name="smoke"/>
+</run></groups>
+<packages>
+<package name="tests"></package>
+<package name="tests.leads"></package>
+<package name="tests.Login"></package>
+</packages>
     </test>
 
 </suite>

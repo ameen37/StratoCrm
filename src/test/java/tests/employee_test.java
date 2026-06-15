@@ -9,9 +9,9 @@ public class employee_test extends BaseClass{
 @DataProvider
 public Object[][] em(){
 	return new Object[][] {
-		{"darshan","darsrgfvhgh54g@g.co","Dar@12122","Dar@12122"},
-		{"ganesh","ganeyrt55tt@sdfdsg.co","Gan@12122","Gan@12122"},
-		{"vimal","dadwefr54456tf@g.co","Fg@12122","Fg@12122"},
+		{"darshan","darsrgfvhgh654g@g.co","Dar@12122","Dar@12122"},
+		{"ganesh","ganeyrt565tt@sdfdsg.co","Gan@12122","Gan@12122"},
+		{"vimal","dadwefr5jyg4456tf@g.co","Fg@12122","Fg@12122"},
 	};
 }
 @Test(dataProvider="em",groups="smoke")
